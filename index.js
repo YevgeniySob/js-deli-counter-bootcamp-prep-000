@@ -1,6 +1,7 @@
-function takeANumber(x, name){
+function takeANumber(arr, name){
   x++
-  return "Welcome, ${name}. You are number ${x} in line."
+  length = arr.length
+  return "Welcome, ${name}. You are number ${length} in line."
 }
 
 function nowServing(n){
