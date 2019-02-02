@@ -1,6 +1,6 @@
 function takeANumber(arr, name){
   arr.push(name)
-  length = arr.length
+  length = arr.length();
   return "Welcome, " + name + ". You are number " + length + " in line."
 }
 
