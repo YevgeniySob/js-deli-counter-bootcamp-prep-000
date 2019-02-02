@@ -1,5 +1,5 @@
 function takeANumber(arr, name){
-  x++
+  arr.push(name)
   length = arr.length
   return "Welcome, ${name}. You are number ${length} in line."
 }
