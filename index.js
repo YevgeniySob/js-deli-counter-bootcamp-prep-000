@@ -1,7 +1,7 @@
 function takeANumber(arr, name){
   arr.push(name)
   length = arr.length
-  return "Welcome, ${name}. You are number ${length} in line."
+  return "Welcome, " + name + ". You are number " + length + " in line."
 }
 
 function nowServing(n){
