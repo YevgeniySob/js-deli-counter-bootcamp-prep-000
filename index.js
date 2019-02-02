@@ -4,8 +4,8 @@ function takeANumber(arr, name){
   return "Welcome, " + name + ". You are number " + lineN + " in line."
 }
 
-function nowServing(n){
-  
+function nowServing(arr){
+  return 
 }
 
 function currentLine(n){
